@@ -246,7 +246,1026 @@
       "role": "table"
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "id": "stormseed-world-board",
+      "kind": "board",
+      "label": "stormseed-world-board",
+      "displayName": "Weltbrett – Klassisch",
+      "position": {
+        "x": 0,
+        "y": 2.095,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 4.35,
+        "y": 0.04,
+        "z": 2.72
+      },
+      "color": "#ffffff",
+      "ownerSeat": null,
+      "faceDown": false,
+      "locked": true,
+      "stackCount": 1,
+      "tags": [
+        "stormseed-conquest"
+      ],
+      "metadata": {
+        "boardImageUrl": "assets/boards/welt-klassisch.webp"
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "material": "wood"
+    },
+    {
+      "id": "stormseed-country-deck",
+      "kind": "deck",
+      "label": "stormseed-country-deck",
+      "displayName": "42 Länderkarten",
+      "position": {
+        "x": 2.48,
+        "y": 2.19,
+        "z": 0.82
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "color": "#f6f1df",
+      "ownerSeat": null,
+      "faceDown": true,
+      "locked": false,
+      "stackCount": 42,
+      "tags": [
+        "stormseed-conquest"
+      ],
+      "metadata": {
+        "customDeck": {
+          "schemaVersion": 1,
+          "id": "laender-klassisch",
+          "name": "Länderkarten – Klassisch",
+          "face": {
+            "texturePath": "assets/textures/decks/laender-klassisch/sheet-1.webp",
+            "columns": 7,
+            "rows": 6,
+            "cardCount": 42,
+            "cardWidthPx": 300,
+            "cardHeightPx": 480
+          },
+          "uniqueBacks": false,
+          "back": {
+            "kind": "single",
+            "texturePath": "assets/textures/decks/laender-klassisch/back.webp"
+          },
+          "sideways": false,
+          "backIsHidden": true,
+          "cardFields": [
+            {
+              "key": "territory",
+              "label": "Land",
+              "type": "text"
+            },
+            {
+              "key": "continent",
+              "label": "Kontinent",
+              "type": "text"
+            },
+            {
+              "key": "unitType",
+              "label": "Einheit",
+              "type": "select",
+              "options": [
+                "infanterie",
+                "reiter",
+                "geschütz"
+              ]
+            }
+          ],
+          "deckFields": [],
+          "data": {},
+          "cards": [
+            {
+              "cardId": "alaska",
+              "label": "Alaska",
+              "faceIndex": 0,
+              "count": 1,
+              "data": {
+                "territory": "alaska",
+                "continent": "nordamerika",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "nordwest-territorium",
+              "label": "Nordwest-Territorium",
+              "faceIndex": 1,
+              "count": 1,
+              "data": {
+                "territory": "nordwest-territorium",
+                "continent": "nordamerika",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "groenland",
+              "label": "Grönland",
+              "faceIndex": 2,
+              "count": 1,
+              "data": {
+                "territory": "groenland",
+                "continent": "nordamerika",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "alberta",
+              "label": "Alberta",
+              "faceIndex": 3,
+              "count": 1,
+              "data": {
+                "territory": "alberta",
+                "continent": "nordamerika",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "ontario",
+              "label": "Ontario",
+              "faceIndex": 4,
+              "count": 1,
+              "data": {
+                "territory": "ontario",
+                "continent": "nordamerika",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "ostkanada",
+              "label": "Ostkanada",
+              "faceIndex": 5,
+              "count": 1,
+              "data": {
+                "territory": "ostkanada",
+                "continent": "nordamerika",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "weststaaten",
+              "label": "Weststaaten",
+              "faceIndex": 6,
+              "count": 1,
+              "data": {
+                "territory": "weststaaten",
+                "continent": "nordamerika",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "oststaaten",
+              "label": "Oststaaten",
+              "faceIndex": 7,
+              "count": 1,
+              "data": {
+                "territory": "oststaaten",
+                "continent": "nordamerika",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "mittelamerika",
+              "label": "Mittelamerika",
+              "faceIndex": 8,
+              "count": 1,
+              "data": {
+                "territory": "mittelamerika",
+                "continent": "nordamerika",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "venezuela",
+              "label": "Venezuela",
+              "faceIndex": 9,
+              "count": 1,
+              "data": {
+                "territory": "venezuela",
+                "continent": "suedamerika",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "peru",
+              "label": "Peru",
+              "faceIndex": 10,
+              "count": 1,
+              "data": {
+                "territory": "peru",
+                "continent": "suedamerika",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "brasilien",
+              "label": "Brasilien",
+              "faceIndex": 11,
+              "count": 1,
+              "data": {
+                "territory": "brasilien",
+                "continent": "suedamerika",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "argentinien",
+              "label": "Argentinien",
+              "faceIndex": 12,
+              "count": 1,
+              "data": {
+                "territory": "argentinien",
+                "continent": "suedamerika",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "island",
+              "label": "Island",
+              "faceIndex": 13,
+              "count": 1,
+              "data": {
+                "territory": "island",
+                "continent": "europa",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "grossbritannien",
+              "label": "Großbritannien",
+              "faceIndex": 14,
+              "count": 1,
+              "data": {
+                "territory": "grossbritannien",
+                "continent": "europa",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "skandinavien",
+              "label": "Skandinavien",
+              "faceIndex": 15,
+              "count": 1,
+              "data": {
+                "territory": "skandinavien",
+                "continent": "europa",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "nordeuropa",
+              "label": "Nordeuropa",
+              "faceIndex": 16,
+              "count": 1,
+              "data": {
+                "territory": "nordeuropa",
+                "continent": "europa",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "westeuropa",
+              "label": "Westeuropa",
+              "faceIndex": 17,
+              "count": 1,
+              "data": {
+                "territory": "westeuropa",
+                "continent": "europa",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "suedeuropa",
+              "label": "Südeuropa",
+              "faceIndex": 18,
+              "count": 1,
+              "data": {
+                "territory": "suedeuropa",
+                "continent": "europa",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "russland",
+              "label": "Russland",
+              "faceIndex": 19,
+              "count": 1,
+              "data": {
+                "territory": "russland",
+                "continent": "europa",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "nordafrika",
+              "label": "Nordafrika",
+              "faceIndex": 20,
+              "count": 1,
+              "data": {
+                "territory": "nordafrika",
+                "continent": "afrika",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "aegypten",
+              "label": "Ägypten",
+              "faceIndex": 21,
+              "count": 1,
+              "data": {
+                "territory": "aegypten",
+                "continent": "afrika",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "ostafrika",
+              "label": "Ostafrika",
+              "faceIndex": 22,
+              "count": 1,
+              "data": {
+                "territory": "ostafrika",
+                "continent": "afrika",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "zentralafrika",
+              "label": "Zentralafrika",
+              "faceIndex": 23,
+              "count": 1,
+              "data": {
+                "territory": "zentralafrika",
+                "continent": "afrika",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "suedafrika",
+              "label": "Südafrika",
+              "faceIndex": 24,
+              "count": 1,
+              "data": {
+                "territory": "suedafrika",
+                "continent": "afrika",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "madagaskar",
+              "label": "Madagaskar",
+              "faceIndex": 25,
+              "count": 1,
+              "data": {
+                "territory": "madagaskar",
+                "continent": "afrika",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "ural",
+              "label": "Ural",
+              "faceIndex": 26,
+              "count": 1,
+              "data": {
+                "territory": "ural",
+                "continent": "asien",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "sibirien",
+              "label": "Sibirien",
+              "faceIndex": 27,
+              "count": 1,
+              "data": {
+                "territory": "sibirien",
+                "continent": "asien",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "jakutien",
+              "label": "Jakutien",
+              "faceIndex": 28,
+              "count": 1,
+              "data": {
+                "territory": "jakutien",
+                "continent": "asien",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "kamtschatka",
+              "label": "Kamtschatka",
+              "faceIndex": 29,
+              "count": 1,
+              "data": {
+                "territory": "kamtschatka",
+                "continent": "asien",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "irkutsk",
+              "label": "Irkutsk",
+              "faceIndex": 30,
+              "count": 1,
+              "data": {
+                "territory": "irkutsk",
+                "continent": "asien",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "mongolei",
+              "label": "Mongolei",
+              "faceIndex": 31,
+              "count": 1,
+              "data": {
+                "territory": "mongolei",
+                "continent": "asien",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "japan",
+              "label": "Japan",
+              "faceIndex": 32,
+              "count": 1,
+              "data": {
+                "territory": "japan",
+                "continent": "asien",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "afghanistan",
+              "label": "Afghanistan",
+              "faceIndex": 33,
+              "count": 1,
+              "data": {
+                "territory": "afghanistan",
+                "continent": "asien",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "china",
+              "label": "China",
+              "faceIndex": 34,
+              "count": 1,
+              "data": {
+                "territory": "china",
+                "continent": "asien",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "naher-osten",
+              "label": "Naher Osten",
+              "faceIndex": 35,
+              "count": 1,
+              "data": {
+                "territory": "naher-osten",
+                "continent": "asien",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "indien",
+              "label": "Indien",
+              "faceIndex": 36,
+              "count": 1,
+              "data": {
+                "territory": "indien",
+                "continent": "asien",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "suedostasien",
+              "label": "Südostasien",
+              "faceIndex": 37,
+              "count": 1,
+              "data": {
+                "territory": "suedostasien",
+                "continent": "asien",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "indonesien",
+              "label": "Indonesien",
+              "faceIndex": 38,
+              "count": 1,
+              "data": {
+                "territory": "indonesien",
+                "continent": "australien",
+                "unitType": "geschütz"
+              }
+            },
+            {
+              "cardId": "neuguinea",
+              "label": "Neuguinea",
+              "faceIndex": 39,
+              "count": 1,
+              "data": {
+                "territory": "neuguinea",
+                "continent": "australien",
+                "unitType": "infanterie"
+              }
+            },
+            {
+              "cardId": "westaustralien",
+              "label": "Westaustralien",
+              "faceIndex": 40,
+              "count": 1,
+              "data": {
+                "territory": "westaustralien",
+                "continent": "australien",
+                "unitType": "reiter"
+              }
+            },
+            {
+              "cardId": "ostaustralien",
+              "label": "Ostaustralien",
+              "faceIndex": 41,
+              "count": 1,
+              "data": {
+                "territory": "ostaustralien",
+                "continent": "australien",
+                "unitType": "geschütz"
+              }
+            }
+          ]
+        },
+        "paperThicknessMm": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "material": "card",
+      "containerMode": "stack"
+    },
+    {
+      "id": "stormseed-mission-deck",
+      "kind": "deck",
+      "label": "stormseed-mission-deck",
+      "displayName": "12 Missionskarten",
+      "position": {
+        "x": 2.48,
+        "y": 2.19,
+        "z": 1.35
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "color": "#f6f1df",
+      "ownerSeat": null,
+      "faceDown": true,
+      "locked": false,
+      "stackCount": 12,
+      "tags": [
+        "stormseed-conquest"
+      ],
+      "metadata": {
+        "customDeck": {
+          "schemaVersion": 1,
+          "id": "missionen-klassisch",
+          "name": "Missionskarten – Klassisch",
+          "face": {
+            "texturePath": "assets/textures/decks/missionen-klassisch/sheet-1.webp",
+            "columns": 4,
+            "rows": 3,
+            "cardCount": 12,
+            "cardWidthPx": 300,
+            "cardHeightPx": 480
+          },
+          "uniqueBacks": false,
+          "back": {
+            "kind": "single",
+            "texturePath": "assets/textures/decks/missionen-klassisch/back.webp"
+          },
+          "sideways": false,
+          "backIsHidden": true,
+          "cardFields": [
+            {
+              "key": "missionText",
+              "label": "Auftrag",
+              "type": "text"
+            }
+          ],
+          "deckFields": [],
+          "data": {},
+          "cards": [
+            {
+              "cardId": "mission-europa-australien",
+              "label": "Mission 1",
+              "faceIndex": 0,
+              "count": 1,
+              "data": {
+                "missionText": "Erobere Europa und Australien."
+              }
+            },
+            {
+              "cardId": "mission-asien-afrika",
+              "label": "Mission 2",
+              "faceIndex": 1,
+              "count": 1,
+              "data": {
+                "missionText": "Erobere Asien und Afrika."
+              }
+            },
+            {
+              "cardId": "mission-nordamerika-afrika",
+              "label": "Mission 3",
+              "faceIndex": 2,
+              "count": 1,
+              "data": {
+                "missionText": "Erobere Nordamerika und Afrika."
+              }
+            },
+            {
+              "cardId": "mission-nordamerika-australien",
+              "label": "Mission 4",
+              "faceIndex": 3,
+              "count": 1,
+              "data": {
+                "missionText": "Erobere Nordamerika und Australien."
+              }
+            },
+            {
+              "cardId": "mission-asien-suedamerika",
+              "label": "Mission 5",
+              "faceIndex": 4,
+              "count": 1,
+              "data": {
+                "missionText": "Erobere Asien und Südamerika."
+              }
+            },
+            {
+              "cardId": "mission-24-laender",
+              "label": "Mission 6",
+              "faceIndex": 5,
+              "count": 1,
+              "data": {
+                "missionText": "Besetze 24 Länder deiner Wahl."
+              }
+            },
+            {
+              "cardId": "mission-18-doppelt",
+              "label": "Mission 7",
+              "faceIndex": 6,
+              "count": 1,
+              "data": {
+                "missionText": "Besetze 18 Länder und stationiere in jedem mindestens zwei Einheiten."
+              }
+            },
+            {
+              "cardId": "mission-blau",
+              "label": "Mission 8",
+              "faceIndex": 7,
+              "count": 1,
+              "data": {
+                "missionText": "Eliminiere die blaue Armee. Spielst du selbst Blau, besetze stattdessen 24 Länder."
+              }
+            },
+            {
+              "cardId": "mission-gruen",
+              "label": "Mission 9",
+              "faceIndex": 8,
+              "count": 1,
+              "data": {
+                "missionText": "Eliminiere die grüne Armee. Spielst du selbst Grün, besetze stattdessen 24 Länder."
+              }
+            },
+            {
+              "cardId": "mission-orange",
+              "label": "Mission 10",
+              "faceIndex": 9,
+              "count": 1,
+              "data": {
+                "missionText": "Eliminiere die orange Armee. Spielst du selbst Orange, besetze stattdessen 24 Länder."
+              }
+            },
+            {
+              "cardId": "mission-violett",
+              "label": "Mission 11",
+              "faceIndex": 10,
+              "count": 1,
+              "data": {
+                "missionText": "Eliminiere die violette Armee. Spielst du selbst Violett, besetze stattdessen 24 Länder."
+              }
+            },
+            {
+              "cardId": "mission-gelb",
+              "label": "Mission 12",
+              "faceIndex": 11,
+              "count": 1,
+              "data": {
+                "missionText": "Eliminiere die gelbe Armee. Spielst du selbst Gelb, besetze stattdessen 24 Länder."
+              }
+            }
+          ]
+        },
+        "paperThicknessMm": 0.3
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "material": "card",
+      "containerMode": "stack"
+    },
+    {
+      "id": "stormseed-d6-angriff-1",
+      "kind": "die",
+      "label": "d6-angriff-1",
+      "displayName": "Angriffswürfel 1",
+      "position": {
+        "x": -2.55,
+        "y": 2.2,
+        "z": -0.62
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.16,
+        "y": 0.16,
+        "z": 0.16
+      },
+      "color": "#c43d3d",
+      "ownerSeat": null,
+      "faceDown": false,
+      "locked": false,
+      "stackCount": 1,
+      "tags": [
+        "stormseed-conquest",
+        "angriff-dice"
+      ],
+      "metadata": {
+        "standardPresetId": "die-d6",
+        "standardPresetFamily": "dice",
+        "standardPresetVariant": "d6",
+        "dieSides": 6,
+        "dieFaceStyle": "dots"
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "material": "plastic"
+    },
+    {
+      "id": "stormseed-d6-angriff-2",
+      "kind": "die",
+      "label": "d6-angriff-2",
+      "displayName": "Angriffswürfel 2",
+      "position": {
+        "x": -2.35,
+        "y": 2.2,
+        "z": -0.62
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.16,
+        "y": 0.16,
+        "z": 0.16
+      },
+      "color": "#c43d3d",
+      "ownerSeat": null,
+      "faceDown": false,
+      "locked": false,
+      "stackCount": 1,
+      "tags": [
+        "stormseed-conquest",
+        "angriff-dice"
+      ],
+      "metadata": {
+        "standardPresetId": "die-d6",
+        "standardPresetFamily": "dice",
+        "standardPresetVariant": "d6",
+        "dieSides": 6,
+        "dieFaceStyle": "dots"
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "material": "plastic"
+    },
+    {
+      "id": "stormseed-d6-angriff-3",
+      "kind": "die",
+      "label": "d6-angriff-3",
+      "displayName": "Angriffswürfel 3",
+      "position": {
+        "x": -2.15,
+        "y": 2.2,
+        "z": -0.62
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.16,
+        "y": 0.16,
+        "z": 0.16
+      },
+      "color": "#c43d3d",
+      "ownerSeat": null,
+      "faceDown": false,
+      "locked": false,
+      "stackCount": 1,
+      "tags": [
+        "stormseed-conquest",
+        "angriff-dice"
+      ],
+      "metadata": {
+        "standardPresetId": "die-d6",
+        "standardPresetFamily": "dice",
+        "standardPresetVariant": "d6",
+        "dieSides": 6,
+        "dieFaceStyle": "dots"
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "material": "plastic"
+    },
+    {
+      "id": "stormseed-d6-verteidigung-1",
+      "kind": "die",
+      "label": "d6-verteidigung-1",
+      "displayName": "Verteidigungswürfel 1",
+      "position": {
+        "x": -2.45,
+        "y": 2.2,
+        "z": -1.02
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.16,
+        "y": 0.16,
+        "z": 0.16
+      },
+      "color": "#26313d",
+      "ownerSeat": null,
+      "faceDown": false,
+      "locked": false,
+      "stackCount": 1,
+      "tags": [
+        "stormseed-conquest",
+        "verteidigung-dice"
+      ],
+      "metadata": {
+        "standardPresetId": "die-d6",
+        "standardPresetFamily": "dice",
+        "standardPresetVariant": "d6",
+        "dieSides": 6,
+        "dieFaceStyle": "dots"
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "material": "plastic"
+    },
+    {
+      "id": "stormseed-d6-verteidigung-2",
+      "kind": "die",
+      "label": "d6-verteidigung-2",
+      "displayName": "Verteidigungswürfel 2",
+      "position": {
+        "x": -2.25,
+        "y": 2.2,
+        "z": -1.02
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.16,
+        "y": 0.16,
+        "z": 0.16
+      },
+      "color": "#26313d",
+      "ownerSeat": null,
+      "faceDown": false,
+      "locked": false,
+      "stackCount": 1,
+      "tags": [
+        "stormseed-conquest",
+        "verteidigung-dice"
+      ],
+      "metadata": {
+        "standardPresetId": "die-d6",
+        "standardPresetFamily": "dice",
+        "standardPresetVariant": "d6",
+        "dieSides": 6,
+        "dieFaceStyle": "dots"
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "material": "plastic"
+    }
+  ],
   "zones": [],
   "seatZones": [
     {
