@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "id": "stormseed-s-conquest",
+  "name": "Stormseed’s Conquest",
+  "version": "0.1.0",
+  "type": "game-pack",
+  "entry": {
+    "setup": "setup.json",
+    "script": "scripts/main.js"
+  },
+  "assets": [],
+  "compatibility": {
+    "engine": ">=0.1 <1.0"
+  },
+  "capabilities": {
+    "version": "1",
+    "allowed": [
+      "log"
+    ]
+  },
+  "license": "MIT",
+  "tags": [],
+  "credits": []
+}

@@ -1,0 +1,724 @@
+{
+  "schemaVersion": 2,
+  "sceneId": "stormseed-s-conquest",
+  "name": "Stormseed’s Conquest",
+  "environment": {
+    "tableSurfaceColor": "#8b5e34",
+    "tableSurfaceTextureAssetId": null,
+    "ambientColor": "#b8bdc2",
+    "fogEnabled": false,
+    "fogColor": "#000000",
+    "fogDensity": 0,
+    "skyboxAssetId": null,
+    "skyboxRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "skyboxSpin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "room": {
+    "floor": {
+      "color": null,
+      "textureAssetId": null,
+      "textureTiling": 1,
+      "hidden": false
+    },
+    "ceiling": {
+      "color": null,
+      "textureAssetId": null,
+      "textureTiling": 1,
+      "hidden": false
+    },
+    "walls": [
+      {
+        "id": "north",
+        "label": "North Wall",
+        "material": {
+          "color": null,
+          "textureAssetId": null,
+          "textureTiling": 1,
+          "hidden": false
+        },
+        "posters": []
+      },
+      {
+        "id": "east",
+        "label": "East Wall",
+        "material": {
+          "color": null,
+          "textureAssetId": null,
+          "textureTiling": 1,
+          "hidden": false
+        },
+        "posters": []
+      },
+      {
+        "id": "south",
+        "label": "South Wall",
+        "material": {
+          "color": null,
+          "textureAssetId": null,
+          "textureTiling": 1,
+          "hidden": false
+        },
+        "posters": []
+      },
+      {
+        "id": "west",
+        "label": "West Wall",
+        "material": {
+          "color": null,
+          "textureAssetId": null,
+          "textureTiling": 1,
+          "hidden": false
+        },
+        "posters": []
+      }
+    ],
+    "lights": [
+      {
+        "id": "light-key",
+        "label": "Key Light",
+        "type": "directional",
+        "color": "#fff5e0",
+        "intensity": 1.7,
+        "position": {
+          "x": 0,
+          "y": 6,
+          "z": 0
+        },
+        "range": 12,
+        "rotation": {
+          "x": 55,
+          "y": 35,
+          "z": 0
+        },
+        "castShadows": true,
+        "innerConeAngle": 40,
+        "outerConeAngle": 45,
+        "falloffMode": "linear",
+        "isStatic": false,
+        "bake": false,
+        "bakeDir": true,
+        "bakeNumSamples": 1,
+        "bakeArea": 0,
+        "affectLightmapped": false,
+        "affectDynamic": true,
+        "affectSpecularity": true,
+        "shadowUpdateMode": "realtime",
+        "shadowResolution": 2048,
+        "numCascades": 1,
+        "shadowDistance": 14,
+        "shadowIntensity": 1,
+        "shadowType": "pcss",
+        "shadowSamples": 16,
+        "shadowBlockerSamples": 16,
+        "penumbraSize": 1,
+        "penumbraFalloff": 1,
+        "shadowBias": 0.05,
+        "normalOffsetBias": 0.03,
+        "layers": [
+          "scene",
+          "table",
+          "game"
+        ]
+      },
+      {
+        "id": "light-fill",
+        "label": "Fill Light",
+        "type": "point",
+        "color": "#7aa3c7",
+        "intensity": 0.85,
+        "position": {
+          "x": -3,
+          "y": 5,
+          "z": 4
+        },
+        "range": 12,
+        "innerConeAngle": 40,
+        "outerConeAngle": 45,
+        "falloffMode": "linear",
+        "isStatic": false,
+        "bake": false,
+        "bakeDir": true,
+        "bakeNumSamples": 1,
+        "bakeArea": 0,
+        "affectLightmapped": false,
+        "affectDynamic": true,
+        "affectSpecularity": true,
+        "shadowUpdateMode": "realtime",
+        "shadowResolution": 2048,
+        "numCascades": 1,
+        "shadowDistance": 14,
+        "shadowIntensity": 1,
+        "shadowType": "pcf3",
+        "shadowSamples": 16,
+        "shadowBlockerSamples": 16,
+        "penumbraSize": 1,
+        "penumbraFalloff": 1,
+        "shadowBias": 0.05,
+        "normalOffsetBias": 0.03,
+        "layers": [
+          "scene",
+          "table",
+          "game"
+        ]
+      },
+      {
+        "id": "light-overhead",
+        "label": "Overhead Light",
+        "type": "point",
+        "color": "#ffebc7",
+        "intensity": 1,
+        "position": {
+          "x": 0,
+          "y": 4.8,
+          "z": 0
+        },
+        "range": 9,
+        "innerConeAngle": 40,
+        "outerConeAngle": 45,
+        "falloffMode": "linear",
+        "isStatic": false,
+        "bake": false,
+        "bakeDir": true,
+        "bakeNumSamples": 1,
+        "bakeArea": 0,
+        "affectLightmapped": false,
+        "affectDynamic": true,
+        "affectSpecularity": true,
+        "shadowUpdateMode": "realtime",
+        "shadowResolution": 2048,
+        "numCascades": 1,
+        "shadowDistance": 14,
+        "shadowIntensity": 1,
+        "shadowType": "pcf3",
+        "shadowSamples": 16,
+        "shadowBlockerSamples": 16,
+        "penumbraSize": 1,
+        "penumbraFalloff": 1,
+        "shadowBias": 0.05,
+        "normalOffsetBias": 0.03,
+        "layers": [
+          "scene",
+          "table",
+          "game"
+        ]
+      }
+    ],
+    "sounds": [],
+    "openings": [],
+    "exterior": {
+      "ground": "plane",
+      "color": "#5a6152",
+      "extent": 240
+    }
+  },
+  "roomSettings": {
+    "debugVisibility": {
+      "rigidBodies": false,
+      "triggers": false,
+      "playerZones": false
+    },
+    "game": {
+      "minPlayers": 1,
+      "maxPlayers": 10,
+      "supportedPlayerCounts": []
+    }
+  },
+  "materials": [],
+  "packRefs": [
+    {
+      "packId": "modern-room",
+      "version": "1.0.2",
+      "commitSha": "ab4f42dcb72b1109e1f626a84a2a6380c487ee69",
+      "role": "room"
+    },
+    {
+      "packId": "square-table",
+      "version": "0.1.6",
+      "commitSha": "5edd2ce14484442250b63fe47df3abb75ab5200c",
+      "role": "table"
+    }
+  ],
+  "objects": [],
+  "zones": [],
+  "seatZones": [
+    {
+      "seat": "red",
+      "zones": [
+        {
+          "id": "seat-zone-red-0",
+          "position": {
+            "x": 0,
+            "y": 2.1422999999999996,
+            "z": 2.003
+          },
+          "size": {
+            "x": 1.5024,
+            "z": 0.5
+          },
+          "rotationY": 180,
+          "type": "hand",
+          "primary": true,
+          "hideFromOthers": true,
+          "faceUpOnEnter": false,
+          "cardOverlap": "left-over-right",
+          "newCardEnd": "right",
+          "sortMethods": [],
+          "defaultSortMethodId": null
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 0,
+          "y": 2.1422999999999996,
+          "z": 2.453
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 180,
+        "fontSize": 0.3
+      },
+      "group": {
+        "position": {
+          "x": 0,
+          "y": 2.1422999999999996,
+          "z": 2.003
+        },
+        "rotationY": 180
+      }
+    },
+    {
+      "seat": "blue",
+      "zones": [
+        {
+          "id": "seat-zone-blue-0",
+          "position": {
+            "x": -1.6024,
+            "y": 2.1422999999999996,
+            "z": 2.003
+          },
+          "size": {
+            "x": 1.5024,
+            "z": 0.5
+          },
+          "rotationY": 180,
+          "type": "hand",
+          "primary": true,
+          "hideFromOthers": true,
+          "faceUpOnEnter": false,
+          "cardOverlap": "left-over-right",
+          "newCardEnd": "right",
+          "sortMethods": [],
+          "defaultSortMethodId": null
+        }
+      ],
+      "label": {
+        "position": {
+          "x": -1.6024,
+          "y": 2.1422999999999996,
+          "z": 2.453
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 180,
+        "fontSize": 0.3
+      },
+      "group": {
+        "position": {
+          "x": -1.6024,
+          "y": 2.1422999999999996,
+          "z": 2.003
+        },
+        "rotationY": 180
+      }
+    },
+    {
+      "seat": "green",
+      "zones": [
+        {
+          "id": "seat-zone-green-0",
+          "position": {
+            "x": -2.003,
+            "y": 2.1422999999999996,
+            "z": 0.8012
+          },
+          "size": {
+            "x": 1.5024,
+            "z": 0.5
+          },
+          "rotationY": 90,
+          "type": "hand",
+          "primary": true,
+          "hideFromOthers": true,
+          "faceUpOnEnter": false,
+          "cardOverlap": "left-over-right",
+          "newCardEnd": "right",
+          "sortMethods": [],
+          "defaultSortMethodId": null
+        }
+      ],
+      "label": {
+        "position": {
+          "x": -2.453,
+          "y": 2.1422999999999996,
+          "z": 0.8012
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 90,
+        "fontSize": 0.3
+      },
+      "group": {
+        "position": {
+          "x": -2.003,
+          "y": 2.1422999999999996,
+          "z": 0.8012
+        },
+        "rotationY": 90
+      }
+    },
+    {
+      "seat": "yellow",
+      "zones": [
+        {
+          "id": "seat-zone-yellow-0",
+          "position": {
+            "x": -2.003,
+            "y": 2.1422999999999996,
+            "z": -0.8012
+          },
+          "size": {
+            "x": 1.5024,
+            "z": 0.5
+          },
+          "rotationY": 90,
+          "type": "hand",
+          "primary": true,
+          "hideFromOthers": true,
+          "faceUpOnEnter": false,
+          "cardOverlap": "left-over-right",
+          "newCardEnd": "right",
+          "sortMethods": [],
+          "defaultSortMethodId": null
+        }
+      ],
+      "label": {
+        "position": {
+          "x": -2.453,
+          "y": 2.1422999999999996,
+          "z": -0.8012
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 90,
+        "fontSize": 0.3
+      },
+      "group": {
+        "position": {
+          "x": -2.003,
+          "y": 2.1422999999999996,
+          "z": -0.8012
+        },
+        "rotationY": 90
+      }
+    },
+    {
+      "seat": "purple",
+      "zones": [
+        {
+          "id": "seat-zone-purple-0",
+          "position": {
+            "x": -1.6024,
+            "y": 2.1422999999999996,
+            "z": -2.003
+          },
+          "size": {
+            "x": 1.5024,
+            "z": 0.5
+          },
+          "rotationY": 0,
+          "type": "hand",
+          "primary": true,
+          "hideFromOthers": true,
+          "faceUpOnEnter": false,
+          "cardOverlap": "left-over-right",
+          "newCardEnd": "right",
+          "sortMethods": [],
+          "defaultSortMethodId": null
+        }
+      ],
+      "label": {
+        "position": {
+          "x": -1.6024,
+          "y": 2.1422999999999996,
+          "z": -2.453
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 0,
+        "fontSize": 0.3
+      },
+      "group": {
+        "position": {
+          "x": -1.6024,
+          "y": 2.1422999999999996,
+          "z": -2.003
+        },
+        "rotationY": 0
+      }
+    },
+    {
+      "seat": "orange",
+      "zones": [
+        {
+          "id": "seat-zone-orange-0",
+          "position": {
+            "x": 0,
+            "y": 2.1422999999999996,
+            "z": -2.003
+          },
+          "size": {
+            "x": 1.5024,
+            "z": 0.5
+          },
+          "rotationY": 0,
+          "type": "hand",
+          "primary": true,
+          "hideFromOthers": true,
+          "faceUpOnEnter": false,
+          "cardOverlap": "left-over-right",
+          "newCardEnd": "right",
+          "sortMethods": [],
+          "defaultSortMethodId": null
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 0,
+          "y": 2.1422999999999996,
+          "z": -2.453
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 0,
+        "fontSize": 0.3
+      },
+      "group": {
+        "position": {
+          "x": 0,
+          "y": 2.1422999999999996,
+          "z": -2.003
+        },
+        "rotationY": 0
+      }
+    },
+    {
+      "seat": "pink",
+      "zones": [
+        {
+          "id": "seat-zone-pink-0",
+          "position": {
+            "x": 1.6024,
+            "y": 2.1422999999999996,
+            "z": -2.003
+          },
+          "size": {
+            "x": 1.5024,
+            "z": 0.5
+          },
+          "rotationY": 0,
+          "type": "hand",
+          "primary": true,
+          "hideFromOthers": true,
+          "faceUpOnEnter": false,
+          "cardOverlap": "left-over-right",
+          "newCardEnd": "right",
+          "sortMethods": [],
+          "defaultSortMethodId": null
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 1.6024,
+          "y": 2.1422999999999996,
+          "z": -2.453
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 0,
+        "fontSize": 0.3
+      },
+      "group": {
+        "position": {
+          "x": 1.6024,
+          "y": 2.1422999999999996,
+          "z": -2.003
+        },
+        "rotationY": 0
+      }
+    },
+    {
+      "seat": "cyan",
+      "zones": [
+        {
+          "id": "seat-zone-cyan-0",
+          "position": {
+            "x": 2.003,
+            "y": 2.1422999999999996,
+            "z": -0.8012
+          },
+          "size": {
+            "x": 1.5024,
+            "z": 0.5
+          },
+          "rotationY": 270,
+          "type": "hand",
+          "primary": true,
+          "hideFromOthers": true,
+          "faceUpOnEnter": false,
+          "cardOverlap": "left-over-right",
+          "newCardEnd": "right",
+          "sortMethods": [],
+          "defaultSortMethodId": null
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 2.453,
+          "y": 2.1422999999999996,
+          "z": -0.8012
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 270,
+        "fontSize": 0.3
+      },
+      "group": {
+        "position": {
+          "x": 2.003,
+          "y": 2.1422999999999996,
+          "z": -0.8012
+        },
+        "rotationY": 270
+      }
+    },
+    {
+      "seat": "white",
+      "zones": [
+        {
+          "id": "seat-zone-white-0",
+          "position": {
+            "x": 2.003,
+            "y": 2.1422999999999996,
+            "z": 0.8012
+          },
+          "size": {
+            "x": 1.5024,
+            "z": 0.5
+          },
+          "rotationY": 270,
+          "type": "hand",
+          "primary": true,
+          "hideFromOthers": true,
+          "faceUpOnEnter": false,
+          "cardOverlap": "left-over-right",
+          "newCardEnd": "right",
+          "sortMethods": [],
+          "defaultSortMethodId": null
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 2.453,
+          "y": 2.1422999999999996,
+          "z": 0.8012
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 270,
+        "fontSize": 0.3
+      },
+      "group": {
+        "position": {
+          "x": 2.003,
+          "y": 2.1422999999999996,
+          "z": 0.8012
+        },
+        "rotationY": 270
+      }
+    },
+    {
+      "seat": "brown",
+      "zones": [
+        {
+          "id": "seat-zone-brown-0",
+          "position": {
+            "x": 1.6024,
+            "y": 2.1422999999999996,
+            "z": 2.003
+          },
+          "size": {
+            "x": 1.5024,
+            "z": 0.5
+          },
+          "rotationY": 180,
+          "type": "hand",
+          "primary": true,
+          "hideFromOthers": true,
+          "faceUpOnEnter": false,
+          "cardOverlap": "left-over-right",
+          "newCardEnd": "right",
+          "sortMethods": [],
+          "defaultSortMethodId": null
+        }
+      ],
+      "label": {
+        "position": {
+          "x": 1.6024,
+          "y": 2.1422999999999996,
+          "z": 2.453
+        },
+        "size": {
+          "width": 1.2,
+          "height": 0.35
+        },
+        "rotationY": 180,
+        "fontSize": 0.3
+      },
+      "group": {
+        "position": {
+          "x": 1.6024,
+          "y": 2.1422999999999996,
+          "z": 2.003
+        },
+        "rotationY": 180
+      }
+    }
+  ],
+  "snapPoints": []
+}
