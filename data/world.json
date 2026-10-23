@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "name": "Stormseed’s Conquest – Weltspiel",
+  "territoryCount": 42,
+  "continents": [
+    {"id": "nordamerika", "name": "Nordamerika", "bonus": 5, "color": "#d9bd3f"},
+    {"id": "suedamerika", "name": "Südamerika", "bonus": 2, "color": "#d96b3f"},
+    {"id": "europa", "name": "Europa", "bonus": 5, "color": "#506bb7"},
+    {"id": "afrika", "name": "Afrika", "bonus": 3, "color": "#bd4961"},
+    {"id": "asien", "name": "Asien", "bonus": 7, "color": "#5b9f62"},
+    {"id": "australien", "name": "Australien", "bonus": 2, "color": "#71518f"}
+  ],
+  "territories": [
+    {"id":"alaska","name":"Alaska","continent":"nordamerika","label":[-151,64],"neighbors":["nordwest-territorium","alberta","kamtschatka"]},
+    {"id":"nordwest-territorium","name":"Nordwest-Territorium","continent":"nordamerika","label":[-119,66],"neighbors":["alaska","alberta","ontario","groenland"]},
+    {"id":"groenland","name":"Grönland","continent":"nordamerika","label":[-42,72],"neighbors":["nordwest-territorium","ontario","ostkanada","island"]},
+    {"id":"alberta","name":"Alberta","continent":"nordamerika","label":[-114,53],"neighbors":["alaska","nordwest-territorium","ontario","weststaaten"]},
+    {"id":"ontario","name":"Ontario","continent":"nordamerika","label":[-88,54],"neighbors":["nordwest-territorium","groenland","ostkanada","weststaaten","oststaaten","alberta"]},
+    {"id":"ostkanada","name":"Ostkanada","continent":"nordamerika","label":[-66,53],"neighbors":["groenland","ontario","oststaaten"]},
+    {"id":"weststaaten","name":"Weststaaten","continent":"nordamerika","label":[-112,38],"neighbors":["alberta","ontario","oststaaten","mittelamerika"]},
+    {"id":"oststaaten","name":"Oststaaten","continent":"nordamerika","label":[-84,38],"neighbors":["ontario","ostkanada","weststaaten","mittelamerika"]},
+    {"id":"mittelamerika","name":"Mittelamerika","continent":"nordamerika","label":[-91,19],"neighbors":["weststaaten","oststaaten","venezuela"]},
+
+    {"id":"venezuela","name":"Venezuela","continent":"suedamerika","label":[-67,7],"neighbors":["mittelamerika","brasilien","peru"]},
+    {"id":"peru","name":"Peru","continent":"suedamerika","label":[-75,-10],"neighbors":["venezuela","brasilien","argentinien"]},
+    {"id":"brasilien","name":"Brasilien","continent":"suedamerika","label":[-53,-10],"neighbors":["venezuela","peru","argentinien","nordafrika"]},
+    {"id":"argentinien","name":"Argentinien","continent":"suedamerika","label":[-65,-34],"neighbors":["peru","brasilien"]},
+
+    {"id":"island","name":"Island","continent":"europa","label":[-19,65],"neighbors":["groenland","grossbritannien","skandinavien"]},
+    {"id":"grossbritannien","name":"Großbritannien","continent":"europa","label":[-4,55],"neighbors":["island","skandinavien","nordeuropa","westeuropa"]},
+    {"id":"skandinavien","name":"Skandinavien","continent":"europa","label":[17,63],"neighbors":["island","grossbritannien","nordeuropa","russland"]},
+    {"id":"nordeuropa","name":"Nordeuropa","continent":"europa","label":[15,52],"neighbors":["grossbritannien","skandinavien","russland","suedeuropa","westeuropa"]},
+    {"id":"westeuropa","name":"Westeuropa","continent":"europa","label":[-2,45],"neighbors":["grossbritannien","nordeuropa","suedeuropa","nordafrika"]},
+    {"id":"suedeuropa","name":"Südeuropa","continent":"europa","label":[20,42],"neighbors":["westeuropa","nordeuropa","russland","naher-osten","aegypten","nordafrika"]},
+    {"id":"russland","name":"Russland","continent":"europa","label":[39,56],"neighbors":["skandinavien","nordeuropa","suedeuropa","naher-osten","afghanistan","ural"]},
+
+    {"id":"nordafrika","name":"Nordafrika","continent":"afrika","label":[5,27],"neighbors":["brasilien","westeuropa","suedeuropa","aegypten","ostafrika","zentralafrika"]},
+    {"id":"aegypten","name":"Ägypten","continent":"afrika","label":[29,27],"neighbors":["suedeuropa","naher-osten","ostafrika","nordafrika"]},
+    {"id":"ostafrika","name":"Ostafrika","continent":"afrika","label":[36,2],"neighbors":["aegypten","naher-osten","madagaskar","suedafrika","zentralafrika","nordafrika"]},
+    {"id":"zentralafrika","name":"Zentralafrika","continent":"afrika","label":[20,-6],"neighbors":["nordafrika","ostafrika","suedafrika"]},
+    {"id":"suedafrika","name":"Südafrika","continent":"afrika","label":[23,-28],"neighbors":["zentralafrika","ostafrika","madagaskar"]},
+    {"id":"madagaskar","name":"Madagaskar","continent":"afrika","label":[47,-20],"neighbors":["suedafrika","ostafrika"]},
+
+    {"id":"ural","name":"Ural","continent":"asien","label":[61,57],"neighbors":["russland","sibirien","china","afghanistan"]},
+    {"id":"sibirien","name":"Sibirien","continent":"asien","label":[86,64],"neighbors":["ural","china","mongolei","irkutsk","jakutien"]},
+    {"id":"jakutien","name":"Jakutien","continent":"asien","label":[123,67],"neighbors":["sibirien","irkutsk","kamtschatka"]},
+    {"id":"kamtschatka","name":"Kamtschatka","continent":"asien","label":[158,60],"neighbors":["jakutien","irkutsk","mongolei","japan","alaska"]},
+    {"id":"irkutsk","name":"Irkutsk","continent":"asien","label":[111,55],"neighbors":["sibirien","jakutien","kamtschatka","mongolei"]},
+    {"id":"mongolei","name":"Mongolei","continent":"asien","label":[107,45],"neighbors":["sibirien","irkutsk","kamtschatka","japan","china"]},
+    {"id":"japan","name":"Japan","continent":"asien","label":[139,37],"neighbors":["kamtschatka","mongolei"]},
+    {"id":"afghanistan","name":"Afghanistan","continent":"asien","label":[67,36],"neighbors":["russland","ural","china","indien","naher-osten"]},
+    {"id":"china","name":"China","continent":"asien","label":[103,35],"neighbors":["ural","sibirien","mongolei","suedostasien","indien","afghanistan"]},
+    {"id":"naher-osten","name":"Naher Osten","continent":"asien","label":[47,29],"neighbors":["russland","suedeuropa","aegypten","ostafrika","indien","afghanistan"]},
+    {"id":"indien","name":"Indien","continent":"asien","label":[78,21],"neighbors":["naher-osten","afghanistan","china","suedostasien"]},
+    {"id":"suedostasien","name":"Südostasien","continent":"asien","label":[105,13],"neighbors":["china","indien","indonesien"]},
+
+    {"id":"indonesien","name":"Indonesien","continent":"australien","label":[116,-3],"neighbors":["suedostasien","neuguinea","westaustralien"]},
+    {"id":"neuguinea","name":"Neuguinea","continent":"australien","label":[145,-7],"neighbors":["indonesien","westaustralien","ostaustralien"]},
+    {"id":"westaustralien","name":"Westaustralien","continent":"australien","label":[119,-26],"neighbors":["indonesien","neuguinea","ostaustralien"]},
+    {"id":"ostaustralien","name":"Ostaustralien","continent":"australien","label":[145,-27],"neighbors":["neuguinea","westaustralien"]}
+  ],
+  "missions": [
+    {"id":"mission-europa-australien","text":"Erobere Europa und Australien."},
+    {"id":"mission-asien-afrika","text":"Erobere Asien und Afrika."},
+    {"id":"mission-nordamerika-afrika","text":"Erobere Nordamerika und Afrika."},
+    {"id":"mission-nordamerika-australien","text":"Erobere Nordamerika und Australien."},
+    {"id":"mission-asien-suedamerika","text":"Erobere Asien und Südamerika."},
+    {"id":"mission-24-laender","text":"Besetze 24 Länder deiner Wahl."},
+    {"id":"mission-18-doppelt","text":"Besetze 18 Länder und stationiere in jedem mindestens zwei Einheiten."},
+    {"id":"mission-blau","text":"Eliminiere die blaue Armee. Spielst du selbst Blau, besetze stattdessen 24 Länder."},
+    {"id":"mission-gruen","text":"Eliminiere die grüne Armee. Spielst du selbst Grün, besetze stattdessen 24 Länder."},
+    {"id":"mission-orange","text":"Eliminiere die orange Armee. Spielst du selbst Orange, besetze stattdessen 24 Länder."},
+    {"id":"mission-violett","text":"Eliminiere die violette Armee. Spielst du selbst Violett, besetze stattdessen 24 Länder."},
+    {"id":"mission-gelb","text":"Eliminiere die gelbe Armee. Spielst du selbst Gelb, besetze stattdessen 24 Länder."}
+  ]
+}

@@ -8,7 +8,30 @@
     "setup": "setup.json",
     "script": "scripts/main.js"
   },
-  "assets": [],
+  "assets": [
+    "assets/boards/welt-farbenfroh.webp",
+    "assets/boards/welt-klassisch.webp",
+    "assets/boards/welt-taktisch.webp",
+    "assets/decks/laender-farbenfroh.deck.json",
+    "assets/decks/laender-klassisch.deck.json",
+    "assets/decks/laender-taktisch.deck.json",
+    "assets/decks/missionen-farbenfroh.deck.json",
+    "assets/decks/missionen-klassisch.deck.json",
+    "assets/decks/missionen-taktisch.deck.json",
+    "assets/textures/decks/laender-farbenfroh/back.webp",
+    "assets/textures/decks/laender-farbenfroh/sheet-1.webp",
+    "assets/textures/decks/laender-klassisch/back.webp",
+    "assets/textures/decks/laender-klassisch/sheet-1.webp",
+    "assets/textures/decks/laender-taktisch/back.webp",
+    "assets/textures/decks/laender-taktisch/sheet-1.webp",
+    "assets/textures/decks/missionen-farbenfroh/back.webp",
+    "assets/textures/decks/missionen-farbenfroh/sheet-1.webp",
+    "assets/textures/decks/missionen-klassisch/back.webp",
+    "assets/textures/decks/missionen-klassisch/sheet-1.webp",
+    "assets/textures/decks/missionen-taktisch/back.webp",
+    "assets/textures/decks/missionen-taktisch/sheet-1.webp",
+    "data/world.json"
+  ],
   "compatibility": {
     "engine": ">=0.1 <1.0"
   },
@@ -20,5 +43,16 @@
   },
   "license": "MIT",
   "tags": [],
-  "credits": []
+  "credits": [],
+  "summary": "Ein eigenständig gestaltetes Welt-Eroberungsspiel mit 42 Ländern und frei kombinierbaren Darstellungsstilen.",
+  "description": "Stormseed’s Conquest enthält 42 Länderkarten, 12 Missionskarten und drei eigenständige Brett- und Kartenstile. Alle Grafiken wurden für dieses Projekt neu erzeugt; Markenlogos und fremde Spielgrafiken werden nicht verwendet.",
+  "coverImage": "media/cover.webp",
+  "screenshots": [
+    {
+      "path": "media/screenshot-1.webp",
+      "title": "Taktisches Weltbrett",
+      "alt": "Weltspielbrett mit 42 beschrifteten Ländern in sechs farbigen Kontinenten.",
+      "kind": "component"
+    }
+  ]
 }

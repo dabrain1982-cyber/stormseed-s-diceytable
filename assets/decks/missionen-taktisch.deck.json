@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "missionen-taktisch",
+  "name": "Missionskarten – Taktisch",
+  "face": {
+    "texturePath": "assets/textures/decks/missionen-taktisch/sheet-1.webp",
+    "columns": 4,
+    "rows": 3,
+    "cardCount": 12,
+    "cardWidthPx": 300,
+    "cardHeightPx": 480
+  },
+  "uniqueBacks": false,
+  "back": {
+    "kind": "single",
+    "texturePath": "assets/textures/decks/missionen-taktisch/back.webp"
+  },
+  "sideways": false,
+  "backIsHidden": true,
+  "cardFields": [
+    {
+      "key": "missionText",
+      "label": "Auftrag",
+      "type": "text"
+    }
+  ],
+  "deckFields": [],
+  "data": {},
+  "cards": [
+    {
+      "cardId": "mission-europa-australien",
+      "label": "Mission 1",
+      "faceIndex": 0,
+      "count": 1,
+      "data": {
+        "missionText": "Erobere Europa und Australien."
+      }
+    },
+    {
+      "cardId": "mission-asien-afrika",
+      "label": "Mission 2",
+      "faceIndex": 1,
+      "count": 1,
+      "data": {
+        "missionText": "Erobere Asien und Afrika."
+      }
+    },
+    {
+      "cardId": "mission-nordamerika-afrika",
+      "label": "Mission 3",
+      "faceIndex": 2,
+      "count": 1,
+      "data": {
+        "missionText": "Erobere Nordamerika und Afrika."
+      }
+    },
+    {
+      "cardId": "mission-nordamerika-australien",
+      "label": "Mission 4",
+      "faceIndex": 3,
+      "count": 1,
+      "data": {
+        "missionText": "Erobere Nordamerika und Australien."
+      }
+    },
+    {
+      "cardId": "mission-asien-suedamerika",
+      "label": "Mission 5",
+      "faceIndex": 4,
+      "count": 1,
+      "data": {
+        "missionText": "Erobere Asien und Südamerika."
+      }
+    },
+    {
+      "cardId": "mission-24-laender",
+      "label": "Mission 6",
+      "faceIndex": 5,
+      "count": 1,
+      "data": {
+        "missionText": "Besetze 24 Länder deiner Wahl."
+      }
+    },
+    {
+      "cardId": "mission-18-doppelt",
+      "label": "Mission 7",
+      "faceIndex": 6,
+      "count": 1,
+      "data": {
+        "missionText": "Besetze 18 Länder und stationiere in jedem mindestens zwei Einheiten."
+      }
+    },
+    {
+      "cardId": "mission-blau",
+      "label": "Mission 8",
+      "faceIndex": 7,
+      "count": 1,
+      "data": {
+        "missionText": "Eliminiere die blaue Armee. Spielst du selbst Blau, besetze stattdessen 24 Länder."
+      }
+    },
+    {
+      "cardId": "mission-gruen",
+      "label": "Mission 9",
+      "faceIndex": 8,
+      "count": 1,
+      "data": {
+        "missionText": "Eliminiere die grüne Armee. Spielst du selbst Grün, besetze stattdessen 24 Länder."
+      }
+    },
+    {
+      "cardId": "mission-orange",
+      "label": "Mission 10",
+      "faceIndex": 9,
+      "count": 1,
+      "data": {
+        "missionText": "Eliminiere die orange Armee. Spielst du selbst Orange, besetze stattdessen 24 Länder."
+      }
+    },
+    {
+      "cardId": "mission-violett",
+      "label": "Mission 11",
+      "faceIndex": 10,
+      "count": 1,
+      "data": {
+        "missionText": "Eliminiere die violette Armee. Spielst du selbst Violett, besetze stattdessen 24 Länder."
+      }
+    },
+    {
+      "cardId": "mission-gelb",
+      "label": "Mission 12",
+      "faceIndex": 11,
+      "count": 1,
+      "data": {
+        "missionText": "Eliminiere die gelbe Armee. Spielst du selbst Gelb, besetze stattdessen 24 Länder."
+      }
+    }
+  ]
+}

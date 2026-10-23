@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "id": "laender-farbenfroh",
+  "name": "Länderkarten – Farbenfroh",
+  "face": {
+    "texturePath": "assets/textures/decks/laender-farbenfroh/sheet-1.webp",
+    "columns": 7,
+    "rows": 6,
+    "cardCount": 42,
+    "cardWidthPx": 300,
+    "cardHeightPx": 480
+  },
+  "uniqueBacks": false,
+  "back": {
+    "kind": "single",
+    "texturePath": "assets/textures/decks/laender-farbenfroh/back.webp"
+  },
+  "sideways": false,
+  "backIsHidden": true,
+  "cardFields": [
+    {
+      "key": "territory",
+      "label": "Land",
+      "type": "text"
+    },
+    {
+      "key": "continent",
+      "label": "Kontinent",
+      "type": "text"
+    },
+    {
+      "key": "unitType",
+      "label": "Einheit",
+      "type": "select",
+      "options": [
+        "infanterie",
+        "reiter",
+        "geschütz"
+      ]
+    }
+  ],
+  "deckFields": [],
+  "data": {},
+  "cards": [
+    {
+      "cardId": "alaska",
+      "label": "Alaska",
+      "faceIndex": 0,
+      "count": 1,
+      "data": {
+        "territory": "alaska",
+        "continent": "nordamerika",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "nordwest-territorium",
+      "label": "Nordwest-Territorium",
+      "faceIndex": 1,
+      "count": 1,
+      "data": {
+        "territory": "nordwest-territorium",
+        "continent": "nordamerika",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "groenland",
+      "label": "Grönland",
+      "faceIndex": 2,
+      "count": 1,
+      "data": {
+        "territory": "groenland",
+        "continent": "nordamerika",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "alberta",
+      "label": "Alberta",
+      "faceIndex": 3,
+      "count": 1,
+      "data": {
+        "territory": "alberta",
+        "continent": "nordamerika",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "ontario",
+      "label": "Ontario",
+      "faceIndex": 4,
+      "count": 1,
+      "data": {
+        "territory": "ontario",
+        "continent": "nordamerika",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "ostkanada",
+      "label": "Ostkanada",
+      "faceIndex": 5,
+      "count": 1,
+      "data": {
+        "territory": "ostkanada",
+        "continent": "nordamerika",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "weststaaten",
+      "label": "Weststaaten",
+      "faceIndex": 6,
+      "count": 1,
+      "data": {
+        "territory": "weststaaten",
+        "continent": "nordamerika",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "oststaaten",
+      "label": "Oststaaten",
+      "faceIndex": 7,
+      "count": 1,
+      "data": {
+        "territory": "oststaaten",
+        "continent": "nordamerika",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "mittelamerika",
+      "label": "Mittelamerika",
+      "faceIndex": 8,
+      "count": 1,
+      "data": {
+        "territory": "mittelamerika",
+        "continent": "nordamerika",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "venezuela",
+      "label": "Venezuela",
+      "faceIndex": 9,
+      "count": 1,
+      "data": {
+        "territory": "venezuela",
+        "continent": "suedamerika",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "peru",
+      "label": "Peru",
+      "faceIndex": 10,
+      "count": 1,
+      "data": {
+        "territory": "peru",
+        "continent": "suedamerika",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "brasilien",
+      "label": "Brasilien",
+      "faceIndex": 11,
+      "count": 1,
+      "data": {
+        "territory": "brasilien",
+        "continent": "suedamerika",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "argentinien",
+      "label": "Argentinien",
+      "faceIndex": 12,
+      "count": 1,
+      "data": {
+        "territory": "argentinien",
+        "continent": "suedamerika",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "island",
+      "label": "Island",
+      "faceIndex": 13,
+      "count": 1,
+      "data": {
+        "territory": "island",
+        "continent": "europa",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "grossbritannien",
+      "label": "Großbritannien",
+      "faceIndex": 14,
+      "count": 1,
+      "data": {
+        "territory": "grossbritannien",
+        "continent": "europa",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "skandinavien",
+      "label": "Skandinavien",
+      "faceIndex": 15,
+      "count": 1,
+      "data": {
+        "territory": "skandinavien",
+        "continent": "europa",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "nordeuropa",
+      "label": "Nordeuropa",
+      "faceIndex": 16,
+      "count": 1,
+      "data": {
+        "territory": "nordeuropa",
+        "continent": "europa",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "westeuropa",
+      "label": "Westeuropa",
+      "faceIndex": 17,
+      "count": 1,
+      "data": {
+        "territory": "westeuropa",
+        "continent": "europa",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "suedeuropa",
+      "label": "Südeuropa",
+      "faceIndex": 18,
+      "count": 1,
+      "data": {
+        "territory": "suedeuropa",
+        "continent": "europa",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "russland",
+      "label": "Russland",
+      "faceIndex": 19,
+      "count": 1,
+      "data": {
+        "territory": "russland",
+        "continent": "europa",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "nordafrika",
+      "label": "Nordafrika",
+      "faceIndex": 20,
+      "count": 1,
+      "data": {
+        "territory": "nordafrika",
+        "continent": "afrika",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "aegypten",
+      "label": "Ägypten",
+      "faceIndex": 21,
+      "count": 1,
+      "data": {
+        "territory": "aegypten",
+        "continent": "afrika",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "ostafrika",
+      "label": "Ostafrika",
+      "faceIndex": 22,
+      "count": 1,
+      "data": {
+        "territory": "ostafrika",
+        "continent": "afrika",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "zentralafrika",
+      "label": "Zentralafrika",
+      "faceIndex": 23,
+      "count": 1,
+      "data": {
+        "territory": "zentralafrika",
+        "continent": "afrika",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "suedafrika",
+      "label": "Südafrika",
+      "faceIndex": 24,
+      "count": 1,
+      "data": {
+        "territory": "suedafrika",
+        "continent": "afrika",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "madagaskar",
+      "label": "Madagaskar",
+      "faceIndex": 25,
+      "count": 1,
+      "data": {
+        "territory": "madagaskar",
+        "continent": "afrika",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "ural",
+      "label": "Ural",
+      "faceIndex": 26,
+      "count": 1,
+      "data": {
+        "territory": "ural",
+        "continent": "asien",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "sibirien",
+      "label": "Sibirien",
+      "faceIndex": 27,
+      "count": 1,
+      "data": {
+        "territory": "sibirien",
+        "continent": "asien",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "jakutien",
+      "label": "Jakutien",
+      "faceIndex": 28,
+      "count": 1,
+      "data": {
+        "territory": "jakutien",
+        "continent": "asien",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "kamtschatka",
+      "label": "Kamtschatka",
+      "faceIndex": 29,
+      "count": 1,
+      "data": {
+        "territory": "kamtschatka",
+        "continent": "asien",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "irkutsk",
+      "label": "Irkutsk",
+      "faceIndex": 30,
+      "count": 1,
+      "data": {
+        "territory": "irkutsk",
+        "continent": "asien",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "mongolei",
+      "label": "Mongolei",
+      "faceIndex": 31,
+      "count": 1,
+      "data": {
+        "territory": "mongolei",
+        "continent": "asien",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "japan",
+      "label": "Japan",
+      "faceIndex": 32,
+      "count": 1,
+      "data": {
+        "territory": "japan",
+        "continent": "asien",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "afghanistan",
+      "label": "Afghanistan",
+      "faceIndex": 33,
+      "count": 1,
+      "data": {
+        "territory": "afghanistan",
+        "continent": "asien",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "china",
+      "label": "China",
+      "faceIndex": 34,
+      "count": 1,
+      "data": {
+        "territory": "china",
+        "continent": "asien",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "naher-osten",
+      "label": "Naher Osten",
+      "faceIndex": 35,
+      "count": 1,
+      "data": {
+        "territory": "naher-osten",
+        "continent": "asien",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "indien",
+      "label": "Indien",
+      "faceIndex": 36,
+      "count": 1,
+      "data": {
+        "territory": "indien",
+        "continent": "asien",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "suedostasien",
+      "label": "Südostasien",
+      "faceIndex": 37,
+      "count": 1,
+      "data": {
+        "territory": "suedostasien",
+        "continent": "asien",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "indonesien",
+      "label": "Indonesien",
+      "faceIndex": 38,
+      "count": 1,
+      "data": {
+        "territory": "indonesien",
+        "continent": "australien",
+        "unitType": "geschütz"
+      }
+    },
+    {
+      "cardId": "neuguinea",
+      "label": "Neuguinea",
+      "faceIndex": 39,
+      "count": 1,
+      "data": {
+        "territory": "neuguinea",
+        "continent": "australien",
+        "unitType": "infanterie"
+      }
+    },
+    {
+      "cardId": "westaustralien",
+      "label": "Westaustralien",
+      "faceIndex": 40,
+      "count": 1,
+      "data": {
+        "territory": "westaustralien",
+        "continent": "australien",
+        "unitType": "reiter"
+      }
+    },
+    {
+      "cardId": "ostaustralien",
+      "label": "Ostaustralien",
+      "faceIndex": 41,
+      "count": 1,
+      "data": {
+        "territory": "ostaustralien",
+        "continent": "australien",
+        "unitType": "geschütz"
+      }
+    }
+  ]
+}
